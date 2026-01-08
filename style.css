@@ -73,6 +73,7 @@ nav .content ul a {
 .content .des {
     background-color: white;
     display: flex;
+    align-items: center;
     gap: 6px;
     padding: 8px 12px;
     border-radius: 20px;
@@ -230,4 +231,60 @@ nav .content ul a {
     line-height: 20px;
     color: #627382;
     max-width: 274px;
+}
+
+.brain-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-content .image {
+    width: 600px;
+    height: 100%;
+}
+
+.brain-container .top-content {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.top-content h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.top-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.top-content p {
+    line-height: 20px;
+    color: #627382;
+}
+
+.brain-container .bot-content {
+    display: block;
+}
+
+.brain-container .bot-content ul {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.brain-container .bot-content li {
+    display: inline-flex;
+    gap: 6px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
 }
