@@ -54,14 +54,17 @@ nav .content ul a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 674px;
-    width: 1600px;
-    padding: 115.5px 120px 1px;
+    width: 100%;
+    position: relative;
 }
 
 #container .content {
     max-width: 1360px;
     width: 85%;
-    margin: 0 auto;
+    position: absolute;
+    top: 70px;
+    left: 7.5%;
+
 }
 
 
