@@ -18,6 +18,16 @@
     font-weight: 600;
 }
 
+.btn .unique-btn {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn .unique-btn:hover {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
 .btn button:hover {
     background-color: #4bc77f;
     border-radius: 4px;
@@ -367,7 +377,7 @@ footer {
     align-items: center;
 }
 
-.social-img .logo {
+.social-img .logo a {
     height: 20px;
     width: 20px;
     background-color: #ffffff;
