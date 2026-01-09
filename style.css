@@ -25,7 +25,7 @@
 
 .btn .unique-btn:hover {
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
 }
 
 .btn button:hover {
