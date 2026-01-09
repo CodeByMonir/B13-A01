@@ -213,6 +213,7 @@ nav .content ul a {
 .bot-content .card {
     height: 300px;
     width: 322px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -307,7 +308,7 @@ nav .content ul a {
     align-items: center;
     background-color: #F7F6F2;
     border-radius: 12px;
-    width: 100%;
+    width: 85%;
     max-width: 1360px;
     margin: 0 auto;
 }
